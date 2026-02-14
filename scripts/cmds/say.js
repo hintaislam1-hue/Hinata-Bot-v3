@@ -54,8 +54,7 @@ module.exports = {
                 if (!text) return message.reply(getLang("noInput"));
 
                 try {
-                        // সরাসরি রিঅ্যাকশন, কোনো ওয়েট মেসেজ নেই
-                        api.setMessageReaction("🗣️", event.messageID, () => {}, true);
+                        api.setMessageReaction("⏳", event.messageID, () => {}, true);
 
                         const baseUrl = await baseApiUrl();
                         const response = await axios.get(`${baseUrl}/api/say`, {
