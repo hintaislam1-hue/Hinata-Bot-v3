@@ -18,8 +18,6 @@ src="https://i.imgur.com/Mmo26FF.jpeg" alt="banner">
 
 
 
-The original author of this Bot is Ntkhang. This fork is maintained by: MahMUD  
-
 If you find any issues, please report them!
 
 
